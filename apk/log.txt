@@ -1,75 +1,75 @@
-11-05 16:05:44.423 20460-20460/? D/dalvikvm: Late-enabling CheckJNI
-11-05 16:05:44.533 20460-20460/? W/System.err: java.io.FileNotFoundException: /jacoco.exec: open failed: EROFS (Read-only file system)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at libcore.io.IoBridge.open(IoBridge.java:409)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at org.jacoco.agent.rt.internal_773e439.output.FileOutput.openFile(FileOutput.java:67)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at org.jacoco.agent.rt.internal_773e439.output.FileOutput.startup(FileOutput.java:49)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at org.jacoco.agent.rt.internal_773e439.Agent.startup(Agent.java:122)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at org.jacoco.agent.rt.internal_773e439.Agent.getInstance(Agent.java:50)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at org.jacoco.agent.rt.internal_773e439.Offline.<clinit>(Offline.java:31)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at com.comtop.mim.app.App.$jacocoInit(App.java)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at com.comtop.mim.app.App.<clinit>(App.java)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at java.lang.Class.newInstanceImpl(Native Method)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at java.lang.Class.newInstance(Class.java:1208)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at android.app.Instrumentation.newApplication(Instrumentation.java:990)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at android.app.Instrumentation.newApplication(Instrumentation.java:975)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at android.app.LoadedApk.makeApplication(LoadedApk.java:504)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4334)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at android.app.ActivityThread.access$1500(ActivityThread.java:138)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1259)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at android.os.Handler.dispatchMessage(Handler.java:102)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at android.os.Looper.loop(Looper.java:136)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at android.app.ActivityThread.main(ActivityThread.java:5034)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at java.lang.reflect.Method.invokeNative(Native Method)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at java.lang.reflect.Method.invoke(Method.java:515)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:609)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at dalvik.system.NativeStart.main(Native Method)
-11-05 16:05:44.543 20460-20460/? W/System.err: Caused by: libcore.io.ErrnoException: open failed: EROFS (Read-only file system)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at libcore.io.Posix.open(Native Method)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
-11-05 16:05:44.543 20460-20460/? W/System.err:     at libcore.io.IoBridge.open(IoBridge.java:393)
-11-05 16:05:44.543 20460-20460/? W/System.err: 	... 24 more
-11-05 16:05:44.543 20460-20460/? I/System.out: -------------->Application onCreate
-11-05 16:05:44.543 20460-20460/? D/may: ===========>mim application onCreate
-11-05 16:05:44.543 20460-20460/? I/may: SysUtil.isTCMSServiceProcess(this): false
-11-05 16:05:44.543 20460-20460/? I/System.out: --------------->百川耗时 ： 4
-11-05 16:05:44.553 20460-20460/? I/System.out: --------------->EimUI耗时 ： 1
-11-05 16:05:44.573 20460-20460/? W/dalvikvm: VFY: unable to resolve static field 15762 (GenericDraweeView) in Lcom/facebook/drawee/R$styleable;
-11-05 16:05:44.573 20460-20460/? D/dalvikvm: VFY: replacing opcode 0x62 at 0x002f
-11-05 16:05:44.573 20460-20460/? I/dalvikvm: DexOpt: unable to optimize static field ref 0x3d95 at 0x3b in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
-11-05 16:05:44.573 20460-20460/? I/dalvikvm: DexOpt: unable to optimize static field ref 0x3daa at 0x43 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
-11-05 16:05:44.573 20460-20460/? I/dalvikvm: DexOpt: unable to optimize static field ref 0x3d99 at 0x59 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
-11-05 16:05:44.573 20460-20460/? I/dalvikvm: DexOpt: unable to optimize static field ref 0x3d9a at 0x61 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
-11-05 16:05:44.573 20460-20460/? I/dalvikvm: DexOpt: unable to optimize static field ref 0x3d9f at 0x69 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
-11-05 16:05:44.573 20460-20460/? I/dalvikvm: DexOpt: unable to optimize static field ref 0x3da0 at 0x73 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
-11-05 16:05:44.573 20460-20460/? I/dalvikvm: DexOpt: unable to optimize static field ref 0x3d96 at 0x7d in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
-11-05 16:05:44.573 20460-20460/? I/dalvikvm: DexOpt: unable to optimize static field ref 0x3d97 at 0x85 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
-11-05 16:05:44.573 20460-20460/? I/dalvikvm: DexOpt: unable to optimize static field ref 0x3d9d at 0x8d in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
-11-05 16:05:44.573 20460-20460/? I/dalvikvm: DexOpt: unable to optimize static field ref 0x3d9e at 0x97 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
-11-05 16:05:44.573 20460-20460/? I/dalvikvm: DexOpt: unable to optimize static field ref 0x3d9c at 0xa1 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
-11-05 16:05:44.573 20460-20460/? I/dalvikvm: DexOpt: unable to optimize static field ref 0x3d93 at 0xad in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
-11-05 16:05:44.573 20460-20460/? I/dalvikvm: DexOpt: unable to optimize static field ref 0x3d94 at 0xb5 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
-11-05 16:05:44.573 20460-20460/? I/dalvikvm: DexOpt: unable to optimize static field ref 0x3d98 at 0xbd in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
-11-05 16:05:44.573 20460-20460/? I/dalvikvm: DexOpt: unable to optimize static field ref 0x3d9b at 0xc5 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
-11-05 16:05:44.573 20460-20460/? I/dalvikvm: DexOpt: unable to optimize static field ref 0x3da1 at 0xcd in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
-11-05 16:05:44.573 20460-20460/? I/dalvikvm: DexOpt: unable to optimize static field ref 0x3da7 at 0xd7 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
-11-05 16:05:44.573 20460-20460/? I/dalvikvm: DexOpt: unable to optimize static field ref 0x3da4 at 0xe1 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
-11-05 16:05:44.573 20460-20460/? I/dalvikvm: DexOpt: unable to optimize static field ref 0x3da5 at 0xeb in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
-11-05 16:05:44.573 20460-20460/? I/dalvikvm: DexOpt: unable to optimize static field ref 0x3da3 at 0xf5 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
-11-05 16:05:44.573 20460-20460/? I/dalvikvm: DexOpt: unable to optimize static field ref 0x3da2 at 0xff in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
-11-05 16:05:44.573 20460-20460/? I/dalvikvm: DexOpt: unable to optimize static field ref 0x3da6 at 0x109 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
-11-05 16:05:44.573 20460-20460/? I/dalvikvm: DexOpt: unable to optimize static field ref 0x3da9 at 0x113 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
-11-05 16:05:44.573 20460-20460/? I/dalvikvm: DexOpt: unable to optimize static field ref 0x3da8 at 0x11d in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
-11-05 16:05:44.583 20460-20460/? D/may: database old name: null, new name: 00015093a71819be
-11-05 16:05:44.583 20460-20460/? I/System.out: --------------->初始化数据库耗时 ： 36
-11-05 16:05:44.583 20460-20460/? D/AdviceBinderbindCustom: 执行绑定com.comtop.mim.helper.ChattingUICustomSample
-11-05 16:05:44.593 20460-20460/? D/AdviceBinderbindCustom: 执行绑定com.comtop.mim.helper.ConversationListUICustomSample
-11-05 16:05:44.593 20460-20460/? D/AdviceBinderbindCustom: 执行绑定com.comtop.mim.helper.NotificationInitSampleHelper
-11-05 16:05:44.593 20460-20460/? D/AdviceBinderbindCustom: 执行绑定com.comtop.mim.helper.YWSDKGlobalConfigSample
-11-05 16:05:44.593 20460-20460/? I/SdkInfo: openIMCore gitcommit:4c5d0bf81b0829c4f1c2959afeed8c2443b6562a
-11-05 16:05:44.593 20460-20460/? I/SdkInfo: openIMCore gitBranch:release-y-1.7.0.3
-11-05 16:05:44.593 20460-20460/? I/YWAPI: prepare2
-11-05 16:05:44.613 20460-20486/? I/IMUtil: start getPrefix appkey=23232985 url=http://tcms-openim.wangxin.taobao.com/getapprule?appkey=23232985
-11-05 16:05:44.623 20460-20486/? D/WXUtil: url before:http://tcms-openim.wangxin.taobao.com/getapprule?appkey=23232985&appId=0
-11-05 16:05:44.623 20460-20486/? D/WXUtil: url after:http://tcms-openim.wangxin.taobao.com/getapprule?appkey=23232985&appId=0
+11-05 16:17:52.280 30241-30241/? D/dalvikvm: Late-enabling CheckJNI
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err: java.io.FileNotFoundException: /jacoco.exec: open failed: EROFS (Read-only file system)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at libcore.io.IoBridge.open(IoBridge.java:409)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at org.jacoco.agent.rt.internal_773e439.output.FileOutput.openFile(FileOutput.java:67)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at org.jacoco.agent.rt.internal_773e439.output.FileOutput.startup(FileOutput.java:49)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at org.jacoco.agent.rt.internal_773e439.Agent.startup(Agent.java:122)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at org.jacoco.agent.rt.internal_773e439.Agent.getInstance(Agent.java:50)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at org.jacoco.agent.rt.internal_773e439.Offline.<clinit>(Offline.java:31)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at com.comtop.mim.app.App.$jacocoInit(App.java)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at com.comtop.mim.app.App.<clinit>(App.java)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at java.lang.Class.newInstanceImpl(Native Method)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at java.lang.Class.newInstance(Class.java:1208)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at android.app.Instrumentation.newApplication(Instrumentation.java:990)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at android.app.Instrumentation.newApplication(Instrumentation.java:975)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at android.app.LoadedApk.makeApplication(LoadedApk.java:504)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4334)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at android.app.ActivityThread.access$1500(ActivityThread.java:138)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1259)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at android.os.Handler.dispatchMessage(Handler.java:102)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at android.os.Looper.loop(Looper.java:136)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at android.app.ActivityThread.main(ActivityThread.java:5034)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at java.lang.reflect.Method.invokeNative(Native Method)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at java.lang.reflect.Method.invoke(Method.java:515)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:609)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at dalvik.system.NativeStart.main(Native Method)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err: Caused by: libcore.io.ErrnoException: open failed: EROFS (Read-only file system)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at libcore.io.Posix.open(Native Method)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err:     at libcore.io.IoBridge.open(IoBridge.java:393)
+11-05 16:17:52.430 30241-30241/com.comtop.mim W/System.err: 	... 24 more
+11-05 16:17:52.440 30241-30241/com.comtop.mim I/System.out: -------------->Application onCreate
+11-05 16:17:52.440 30241-30241/com.comtop.mim D/may: ===========>mim application onCreate
+11-05 16:17:52.440 30241-30241/com.comtop.mim I/may: SysUtil.isTCMSServiceProcess(this): false
+11-05 16:17:52.440 30241-30241/com.comtop.mim I/System.out: --------------->百川耗时 ： 4
+11-05 16:17:52.440 30241-30241/com.comtop.mim I/System.out: --------------->EimUI耗时 ： 1
+11-05 16:17:52.460 30241-30241/com.comtop.mim W/dalvikvm: VFY: unable to resolve static field 15762 (GenericDraweeView) in Lcom/facebook/drawee/R$styleable;
+11-05 16:17:52.460 30241-30241/com.comtop.mim D/dalvikvm: VFY: replacing opcode 0x62 at 0x002f
+11-05 16:17:52.460 30241-30241/com.comtop.mim I/dalvikvm: DexOpt: unable to optimize static field ref 0x3d95 at 0x3b in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
+11-05 16:17:52.460 30241-30241/com.comtop.mim I/dalvikvm: DexOpt: unable to optimize static field ref 0x3daa at 0x43 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
+11-05 16:17:52.460 30241-30241/com.comtop.mim I/dalvikvm: DexOpt: unable to optimize static field ref 0x3d99 at 0x59 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
+11-05 16:17:52.460 30241-30241/com.comtop.mim I/dalvikvm: DexOpt: unable to optimize static field ref 0x3d9a at 0x61 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
+11-05 16:17:52.460 30241-30241/com.comtop.mim I/dalvikvm: DexOpt: unable to optimize static field ref 0x3d9f at 0x69 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
+11-05 16:17:52.460 30241-30241/com.comtop.mim I/dalvikvm: DexOpt: unable to optimize static field ref 0x3da0 at 0x73 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
+11-05 16:17:52.460 30241-30241/com.comtop.mim I/dalvikvm: DexOpt: unable to optimize static field ref 0x3d96 at 0x7d in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
+11-05 16:17:52.460 30241-30241/com.comtop.mim I/dalvikvm: DexOpt: unable to optimize static field ref 0x3d97 at 0x85 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
+11-05 16:17:52.460 30241-30241/com.comtop.mim I/dalvikvm: DexOpt: unable to optimize static field ref 0x3d9d at 0x8d in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
+11-05 16:17:52.460 30241-30241/com.comtop.mim I/dalvikvm: DexOpt: unable to optimize static field ref 0x3d9e at 0x97 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
+11-05 16:17:52.460 30241-30241/com.comtop.mim I/dalvikvm: DexOpt: unable to optimize static field ref 0x3d9c at 0xa1 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
+11-05 16:17:52.460 30241-30241/com.comtop.mim I/dalvikvm: DexOpt: unable to optimize static field ref 0x3d93 at 0xad in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
+11-05 16:17:52.470 30241-30241/com.comtop.mim I/dalvikvm: DexOpt: unable to optimize static field ref 0x3d94 at 0xb5 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
+11-05 16:17:52.470 30241-30241/com.comtop.mim I/dalvikvm: DexOpt: unable to optimize static field ref 0x3d98 at 0xbd in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
+11-05 16:17:52.470 30241-30241/com.comtop.mim I/dalvikvm: DexOpt: unable to optimize static field ref 0x3d9b at 0xc5 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
+11-05 16:17:52.470 30241-30241/com.comtop.mim I/dalvikvm: DexOpt: unable to optimize static field ref 0x3da1 at 0xcd in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
+11-05 16:17:52.470 30241-30241/com.comtop.mim I/dalvikvm: DexOpt: unable to optimize static field ref 0x3da7 at 0xd7 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
+11-05 16:17:52.470 30241-30241/com.comtop.mim I/dalvikvm: DexOpt: unable to optimize static field ref 0x3da4 at 0xe1 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
+11-05 16:17:52.470 30241-30241/com.comtop.mim I/dalvikvm: DexOpt: unable to optimize static field ref 0x3da5 at 0xeb in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
+11-05 16:17:52.470 30241-30241/com.comtop.mim I/dalvikvm: DexOpt: unable to optimize static field ref 0x3da3 at 0xf5 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
+11-05 16:17:52.470 30241-30241/com.comtop.mim I/dalvikvm: DexOpt: unable to optimize static field ref 0x3da2 at 0xff in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
+11-05 16:17:52.470 30241-30241/com.comtop.mim I/dalvikvm: DexOpt: unable to optimize static field ref 0x3da6 at 0x109 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
+11-05 16:17:52.470 30241-30241/com.comtop.mim I/dalvikvm: DexOpt: unable to optimize static field ref 0x3da9 at 0x113 in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
+11-05 16:17:52.470 30241-30241/com.comtop.mim I/dalvikvm: DexOpt: unable to optimize static field ref 0x3da8 at 0x11d in Lcom/facebook/drawee/view/GenericDraweeView;.inflateHierarchy
+11-05 16:17:52.480 30241-30241/com.comtop.mim D/may: database old name: null, new name: 00015093a71819be
+11-05 16:17:52.480 30241-30241/com.comtop.mim I/System.out: --------------->初始化数据库耗时 ： 41
+11-05 16:17:52.490 30241-30241/com.comtop.mim D/AdviceBinderbindCustom: 执行绑定com.comtop.mim.helper.ChattingUICustomSample
+11-05 16:17:52.490 30241-30241/com.comtop.mim D/AdviceBinderbindCustom: 执行绑定com.comtop.mim.helper.ConversationListUICustomSample
+11-05 16:17:52.490 30241-30241/com.comtop.mim D/AdviceBinderbindCustom: 执行绑定com.comtop.mim.helper.NotificationInitSampleHelper
+11-05 16:17:52.490 30241-30241/com.comtop.mim D/AdviceBinderbindCustom: 执行绑定com.comtop.mim.helper.YWSDKGlobalConfigSample
+11-05 16:17:52.500 30241-30241/com.comtop.mim I/SdkInfo: openIMCore gitcommit:4c5d0bf81b0829c4f1c2959afeed8c2443b6562a
+11-05 16:17:52.500 30241-30241/com.comtop.mim I/SdkInfo: openIMCore gitBranch:release-y-1.7.0.3
+11-05 16:17:52.500 30241-30241/com.comtop.mim I/YWAPI: prepare2
+11-05 16:17:52.510 30241-30273/com.comtop.mim I/IMUtil: start getPrefix appkey=23232985 url=http://tcms-openim.wangxin.taobao.com/getapprule?appkey=23232985
+11-05 16:17:52.530 30241-30273/com.comtop.mim D/WXUtil: url before:http://tcms-openim.wangxin.taobao.com/getapprule?appkey=23232985&appId=0
+11-05 16:17:52.530 30241-30273/com.comtop.mim D/WXUtil: url after:http://tcms-openim.wangxin.taobao.com/getapprule?appkey=23232985&appId=0
