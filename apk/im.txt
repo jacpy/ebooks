@@ -1,0 +1,1 @@
+01-11 08:42:09.421: D/dalvikvm(733): Debugger has detached; object registry had 1 entries
