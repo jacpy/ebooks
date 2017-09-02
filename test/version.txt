@@ -2,7 +2,7 @@
 "code": 1,
 "msg": "",
 "version": "1.1.0",
-"minVersion": "1.0.0",
+"minVersion": "1.1.0",
 "desc": "应用更新：<br/>1.<b>修复bug.</b><br/>2.<b>提高性能</b>",
 "url": "https://raw.githubusercontent.com/jacpy/ebooks/master/test/app-1.1.0.apk"
 }
